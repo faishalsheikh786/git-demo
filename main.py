@@ -1,6 +1,11 @@
-def traverse(list):
-    for x in list:
-        print(x)
+def traverse(dict):
+    for x,y in dict.items():
+        print(x,y)
 
-a = [1,2,3,4,5,6,7]
-traverse(a)
+_dict = {
+    "name" : "Faishal",
+    "batch" : "ECE",
+    "age" : "22",
+}
+
+traverse(_dict)
