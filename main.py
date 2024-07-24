@@ -1,4 +1,6 @@
-a = [1,2,3,4,5,6,7]
+def traverse(list):
+    for x in list:
+        print(x)
 
-for x in a:
-    print(a)
+a = [1,2,3,4,5,6,7]
+traverse(a)
