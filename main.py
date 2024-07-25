@@ -1,11 +1,9 @@
-def traverse(dict):
-    for x,y in dict.items():
-        print(x,y)
+class Student:
+    def __init__(self, name, roll_no, branch):
+        self.name = name 
+        self.roll_no = roll_no
+        self.branch = branch
 
-_dict = {
-    "name" : "Faishal",
-    "batch" : "ECE",
-    "age" : "22",
-}
-
-traverse(_dict)
+    def __str__(self):
+        print(f"Name : {self.name}\nRoll No : {self.roll_no}\nBranch : {self.branch}")
+        
