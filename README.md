@@ -1,15 +1,16 @@
 # Git Commands
-
+#
 ```bash
 git config --global user.name "name"
 git config --global user.email "xyz@gmail.com"
 ```
+#
 
-- create new git repository
+create new git repository
 ```bash
 git init   
-```                                                       
-- gives information of a git repository
+```
+gives information of a git repository
 ```bash
 git status  
 ```
