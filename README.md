@@ -117,7 +117,7 @@ git push -u origin master
 #
 
 
-##.gitignore
+## .gitignore
 Create a file called .gitignore in the root of a repository. Inside the file, we can write patterns to tell Git which files and folders to ignore:
 - -> .DS_Store will ignore files named .DS_Store
 - -> folderName/ will ignore an entire directory
