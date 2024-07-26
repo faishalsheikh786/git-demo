@@ -1,5 +1,5 @@
 # Git Commands
-#
+
 ```bash
 git config --global user.name "name"
 git config --global user.email "xyz@gmail.com"
@@ -14,20 +14,20 @@ gives information of a git repository
 ```bash
 git status  
 ```
-- add specific files to the staging area
+ add specific files to the staging area
 ```bash
 git add . 
 ```
-- commit changes from the staging area
+ commit changes from the staging area
 ```bash
 git commit -m "Message"  
 ```
 
-- list the commit
+ list the commit
 ```bash
 git log 
 ```
-- list one line of each commit
+ list one line of each commit
 ```bash
 git log --oneline  
 ```
@@ -45,71 +45,76 @@ git log --oneline
          
        
 
-
-- view branch
+#
+view branch
 ```bash
 git branch 
 ```
-- create a branch
+create a branch
 ```bash
 gir branch <branch-name> 
 ```
-- switch branch
+switch branch
 ```bash
 git switch <branch-name>
 git checkout <branch-name>
 ```
+create branch and switch 
 ```bash
-- create branch and switch 
 git switch -c <branch-name>
 ```
+#
 
 
 
 
-- clone a repo
+clone a repo
 ```bash
 git clone <url>
 ```
-
+#
           
      
      
           
-- view remote    
+view remote    
 ```bash
 git remote/git remote -v
 ```
-- add a remote
+add a remote
 ```bash
 git remote add <name> <url> 
 ```
-- rename remote
+rename remote
 ```bash
 git remote rename <old> <new>
 ```
-- delete remote
+delete remote
 ```bash
 git remote remove <name>
 ```
+#
 
 
-- push a branch to remote
+push a branch to remote
 ```bash
 git push <remote> <branch>        
 git push <remote> <local-branch>:<remote-branch>
 ```
+#
 
 
 
-- push a branch to remote
+push a branch to remote
 ```bash
 git push <remote> <branch>       
 git push <remote> <local-branch>:<remote-branch>
 ```
+add upstream
 ```bash
 git push -u origin master
 ```
+#
 
 
 
