@@ -1,32 +1,114 @@
 # Git Commands
 
+```bash
 git config --global user.name "name"
 git config --global user.email "xyz@gmail.com"
+```
 
-git init                          create new git repository
-git status                        gives information of a git repository
-git add .                         add specific files to the staging area
-git commit -m "Message"           commit changes from the staging area
+- create new git repository
+```bash
+git init   
+```                                                       
+- gives information of a git repository
+```bash
+git status  
+```
+- add specific files to the staging area
+```bash
+git add . 
+```
+- commit changes from the staging area
+```bash
+git commit -m "Message"  
+```
 
-git log                           list the commit
-git log --oneline                 list one line of each commit
+- list the commit
+```bash
+git log 
+```
+- list one line of each commit
+```bash
+git log --oneline  
+```
 
-git branch                        view branch
-gir branch <branch-name>          create a branch
-git switch <branch-name>          switch branch
-git switch -c <branch-name>       create branch and switch 
+                          
+               
+
+
+
+
+
+
+                      
+         
+         
+       
+
+
+- view branch
+```bash
+git branch 
+```
+- create a branch
+```bash
+gir branch <branch-name> 
+```
+- switch branch
+```bash
+git switch <branch-name>
 git checkout <branch-name>
+```
+```bash
+- create branch and switch 
+git switch -c <branch-name>
+```
 
-git clone <url>                   clone a repo
 
-git remote/git remote -v          view remote
-git remote add <name> <url>       add a remote
-git remote rename <old> <new>     rename remote
-git remote remove <name>          delete remote
 
-git push <remote> <branch>        push a branch to remote
+
+- clone a repo
+```bash
+git clone <url>
+```
+
+          
+     
+     
+          
+- view remote    
+```bash
+git remote/git remote -v
+```
+- add a remote
+```bash
+git remote add <name> <url> 
+```
+- rename remote
+```bash
+git remote rename <old> <new>
+```
+- delete remote
+```bash
+git remote remove <name>
+```
+
+
+- push a branch to remote
+```bash
+git push <remote> <branch>        
 git push <remote> <local-branch>:<remote-branch>
+```
+
+
+
+- push a branch to remote
+```bash
+git push <remote> <branch>       
+git push <remote> <local-branch>:<remote-branch>
+```
+```bash
 git push -u origin master
+```
 
 
 
